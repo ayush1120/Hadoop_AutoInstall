@@ -1,0 +1,43 @@
+Download java jdk<version>-linux-x64.tar.gz file from https://www.oracle.com/technetwork/java/javase/downloads/index.html.
+
+Extract this file where you want. like: /home/java(Folder name created by user in home directory).
+
+Now open terminal. Set path JAVA_HOME=path of your jdk folder(open jdk folder then right click on any folder, 
+go to properties then copy the path using select all) and paste here.
+
+Like: JAVA_HOME=/home/xxxx/java/JDK1.8.0_201
+
+Let Ubuntu know where our JDK/JRE is located.
+
+sudo update-alternatives --install /usr/bin/java java /home/xxxx/java/jdk1.8.0_201/bin/java 20000
+sudo update-alternatives --install /usr/bin/javac javac /home/xxxx/java/jdk1.8.0_201/bin/javac 20000
+sudo update-alternatives --install /usr/bin/javaws javaws /home/xxxx/java/jdk1.8.0_201/bin/javaws 20000
+Tell Ubuntu that our installation i.e., jdk1.8.0_05 must be the default Java.
+
+sudo update-alternatives --set java /home/xxxx/sipTest/jdk1.8.0_201/bin/java
+sudo update-alternatives --set javac /home/xxxx/java/sipTest/jdk1.8.0_201/bin/javac
+sudo update-alternatives --set javaws /home/xxxxx/sipTest/jdk1.8.0_201/bin/javaws
+
+
+Try - 
+
+$ sudo update-alternatives --config java
+There are 3 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                  Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-6-oracle1/bin/java   1047      auto mode
+  1            /usr/bin/gij-4.6                       1046      manual mode
+  2            /usr/lib/jvm/java-6-oracle1/bin/java   1047      manual mode
+  3            /usr/lib/jvm/jdk1.7.0_75/bin/java      1         manual mode
+Press enter to keep the current choice [*], or type selection number: 3
+
+update-alternatives: using /usr/lib/jvm/jdk1.7.0_75/bin/java to provide /usr/bin/java (java) in manual mode
+Repeat the above for:
+
+sudo update-alternatives --config javac
+sudo update-alternatives --config javaws
+
+
+
+
