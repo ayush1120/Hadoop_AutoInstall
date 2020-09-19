@@ -60,7 +60,7 @@
 
 - Output of word count is saved in the file output.txt in PROJECT_DIR
 - pyLog.log contains all the logs.
-- Output of map reduce command (using hadoop:  mapred straming ) is stored in mapretOutput.txt 
+- Output of map reduce command (using hadoop:  mapred straming ) is stored in mapredOutput.txt 
 
 
 ### File Structure 
