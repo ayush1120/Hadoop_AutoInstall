@@ -72,7 +72,7 @@
 | fileOperations.py | Functions for easy access to file IO operation |
 | javaCheck.py | This file checks if java is installed correctly and if JAVA_HOME is configured in the environment or not.|
 | reqCheck.py  | Check All Requirements (Calls function from javaCheck) and also checks if ssh and pdsh are installed or not. |
-| passphraselessSSH | Sets up passphraseless ssh. |
+| passphraselessSSH.py | Sets up passphraseless ssh. |
 | hadoopInstall.py | Downloads and extract Hadoop 3.2.1. Provides variable: HADOOP_HOME|
 | configureHadoop.py | Adds line “export JAVA_HOME={JAVA_HOME}” & "export HADOOP_OPTS="--add-modules java.activation" to /etc/hadoop/hadoop-env.sh.|
 | standalone.py | Runs the standalone operation |
