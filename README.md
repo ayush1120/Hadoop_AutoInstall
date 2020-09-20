@@ -1,6 +1,4 @@
----
 # HADOOP AutoInstall & Word Count Example
-######  Author: Ayush Sharma
 ---
 
   - Requires python 3.5.x or newer version.
