@@ -10,10 +10,10 @@
 ## Before Installation
 **Please make sure of the following:** 
  - Script is for linux OS only **(TESTED on Ubuntu 18.04.4 LTS)** 
- - Java (jdk) is installed version 8 or newer. **(If not found script will through error)** **(TESTED on open-jdk 9 open-jdk 10 & oracle-jdk 10).**
+ - Java (jdk) is installed version 8 or newer. **(If not found script will throw error)** **(TESTED on open-jdk 9 open-jdk 10 & oracle-jdk 10).**
  (For installing jdk from  **[jdk_x.x.x.tar.gz](https://jdk.java.net/archive/)** file, instructions are given in **Java_Install_Instruction.txt**)
- - JAVA_HOME is set in environment variables & should be pointing to jdk . **(If not found script will through error)**.
- - **ssh** & **pdsh** are installed and working correctly.. **(If not found script will through error)**
+ - JAVA_HOME is set in environment variables & should be pointing to jdk . **(If not found script will throw error)**.
+ - **ssh** & **pdsh** are installed and working correctly.. **(If not found script will throw error)**
     - If the current installation of ssh is not working install using the following command, 
         ```sh
         $ sudo apt-get install openssh-client openssh-server
