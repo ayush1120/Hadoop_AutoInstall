@@ -1,5 +1,4 @@
 # HADOOP AutoInstall & Word Count Example
----
 
   - Requires python 3.5.x or newer version.
   - For reference, **PROJECT_DIR** is directory which contains **main.py** file.
