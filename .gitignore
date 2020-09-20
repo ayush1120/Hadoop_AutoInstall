@@ -131,10 +131,15 @@ dmypy.json
 
 .Rhistory
 
+
+# Added By Ayush
 output/
 pyLog.log
 hadoop-3.2.1.tar.gz
 mapredOutput.txt
 output.txt
 *.zip
+README.pdf
+
+
 
